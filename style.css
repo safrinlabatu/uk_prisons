@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Rubik:wght@500&display=swap');;
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	background: #f9f9f9;
+	font-size: 24px;
+	padding: 25px;
+}
+
+.parallax {
+	background: url('img/img_1.jpeg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 800px;
+}
+
+h1, h2 {
+	align-self: center;
+	justify-content: center;
+	color: white;
+	font-family: 'Rubik', sans-serif;
+}
+
+.two-page-div {
+	max-width: 960px;
+	margin: 0 auto;
+	background: #f9f9f9;
+	font-size: 24px;
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+}
+
+.first-page {
+	/*background-color: red;*/
+	padding-right: 15px;
+}
+
+.first-page img {
+	width: 300px;
+	height: auto;
+}
+
+.first-page h2 {
+	color: black;
+}
+
+.second-page {
+	padding-left: 15px;
+}
