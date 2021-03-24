@@ -72,11 +72,14 @@ h1, h2 {
 	display: flex;
 	flex-direction: row;
 	padding: 130px;
-	background-color: rgb(182,216,232);
+	background: url('img/bcg2.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	/*opacity: 0.6;*/
 }
 
-.textBox h2 {
-	color: black;
+.textBox h2, .textBox p {
+	color: white;
 }
 
 .textBox {
