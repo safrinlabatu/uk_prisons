@@ -13,6 +13,15 @@ body {
 	padding: 25px;
 }
 
+/*Sticky image*/
+
+.first-page img {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 200px;
+}
+
 .parallax {
 	background: url('img/img_1.jpeg') no-repeat center;
 	background-size: cover;
