@@ -13,6 +13,7 @@ body {
 	padding: 25px;
 }
 
+/*###########################################################################*/
 /*Sticky image*/
 
 .first-page img {
@@ -39,7 +40,7 @@ h1, h2 {
 .two-page-div {
 	max-width: 960px;
 	margin: 0 auto;
-	background: #f9f9f9;
+	/*background: #f9f9f9;*/
 	font-size: 24px;
 	padding: 25px;
 	display: flex;
@@ -62,4 +63,30 @@ h1, h2 {
 
 .second-page {
 	padding-left: 15px;
+}
+
+/*##################################################################################*/
+/*HORIZONTAL SCROLL*/
+
+.horizontal_scroll {
+	display: flex;
+	flex-direction: row;
+	padding: 130px;
+	background-color: rgb(182,216,232);
+}
+
+.textBox h2 {
+	color: black;
+}
+
+.textBox {
+	padding: 25px;
+}
+
+.imgBox {
+	padding:25px;
+}
+
+.imgBox img {
+	width: 500px;
 }
