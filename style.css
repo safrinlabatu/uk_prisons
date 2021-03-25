@@ -4,6 +4,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	overflow-y: hidden;
 }
 .container {
 	max-width: 960px;
@@ -14,27 +15,31 @@ body {
 }
 
 /*###########################################################################*/
-/*Sticky image*/
-
-.first-page img {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  width: 200px;
-}
+/*Parallax*/
 
 .parallax {
 	background: url('img/img_1.jpeg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
+	opacity: 0.7;
 	height: 800px;
 }
 
 h1, h2 {
 	align-self: center;
 	justify-content: center;
-	color: white;
+	color: black;
+	opacity: none;
 	font-family: 'Rubik', sans-serif;
+}
+
+/*################################################################################*/
+/*First Block*/
+.first-page img {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 200px;
 }
 
 .two-page-div {
@@ -71,25 +76,56 @@ h1, h2 {
 .horizontal_scroll {
 	display: flex;
 	flex-direction: row;
-	padding: 130px;
+	padding: 135px;
 	background: url('img/bcg2.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	/*opacity: 0.6;*/
 }
 
-.textBox h2, .textBox p {
-	color: white;
-}
-
-.textBox {
-	padding: 25px;
-}
-
 .imgBox {
-	padding:25px;
+	/*padding:25px;*/
 }
 
 .imgBox img {
-	width: 500px;
+	width: 1000px;
+}
+
+/*##########################################################################################*/
+/*THIRD BLOCK*/
+
+.two-page-div2 {
+	/*max-width: 960px;*/
+	margin: 0 auto;
+	/*background: #f9f9f9;*/
+	font-size: 24px;
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	background: url('img/bcg2.jpg') no-repeat center;
+}
+
+.first-page2 img {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 200px;
+}
+
+.first-page2 {
+	/*background-color: red;*/
+	padding-right: 15px;
+}
+
+.first-page2 img {
+	width: 300px;
+	height: auto;
+}
+
+.first-page2 h2 {
+	color: black;
+}
+
+.second-page {
+	padding-left: 15px;
 }
