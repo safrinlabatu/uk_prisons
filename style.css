@@ -99,6 +99,8 @@ body {
 	font-weight: bold;
 	font-size: 12px;
 	padding: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
 }
 
 .button p {
