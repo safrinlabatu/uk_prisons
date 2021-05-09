@@ -141,7 +141,7 @@ body {
 .first_page_body {
 	width: 55%;
 	margin: auto;
-	padding-top: 30px;
+	padding-top: 25px;
 }
 
 /*################   SECOND SUB   ####################*/
@@ -170,5 +170,5 @@ body {
 .second_page_body {
 	width: 55%;
 	margin: auto;
-	padding-top: 50px;
+	padding-top: 25px; 
 }
