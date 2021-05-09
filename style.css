@@ -54,13 +54,18 @@ body {
 }
 
 .intro p {
-	text-align: justify;
+	/*text-align: justify;*/
 }
 
 .button {
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom:20px;
+}
+
+.button a {
+	text-decoration: none;
+	color: black;
 }
 
 .btn {
@@ -78,9 +83,28 @@ body {
 
 /*#################   FIRST SUB   ###########*/
 
+
+.first_page {
+	padding-top: 90px;
+}
+
 .first_page h2{
-	margin: 100px auto;
-	text-align: center;
-	font-size: 40px;
-	max-width: 600px;
+	width: 55%; 
+  	text-align: center; 
+   	border-bottom: 1px solid white; 
+   	line-height: 0.1em;
+   	margin: auto; 
+
+}
+
+.first_page h2 span {
+	background: rgb(34,34,34); 
+    padding:0 10px;
+}
+
+/*First Page Body*/
+.first_page_body {
+	width: 55%;
+	margin: auto;
+	padding-top: 50px;
 }
