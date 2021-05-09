@@ -25,11 +25,34 @@ body {
 	font-size: 13px;
 }
 
+.intro_wrapper {
+   	height: 100%;
+   	width: 100%;
+}
+
+.bg_img {
+	content: "";
+	background-image: url("img/bg_img.jpg");
+	background-size: cover;
+   	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	position: absolute;
+  	background-size: cover;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	opacity: 0.75;
+  	z-index: -2;
+  	opacity: 0.24;
+}
+
 .main_headline {
 	text-align: center;
 	padding-top: 95px;
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: bold;
 }
 
@@ -42,7 +65,7 @@ body {
 .date {
 	text-align: center;
 	padding-top: 5px;
-	font-size: 12px;
+	font-size: 18px;
 	color: rgb(144,144,144);
 }
 
@@ -54,7 +77,10 @@ body {
 }
 
 .intro p {
-	/*text-align: justify;*/
+	text-align: center;
+	font-size: 18px;
+	padding: 5px;
+	/*background-color: rgba(0, 0, 0, 0.2);*/
 }
 
 .button {
@@ -81,29 +107,67 @@ body {
 	padding-top: 10px;
 }
 
+
+
 /*#################   FIRST SUB   ###########*/
 
+.body_title {
+	text-align: center;
+	padding-top: 70px;
+	text-transform: uppercase;
+}
 
 .first_page {
-	padding-top: 90px;
+	padding-top: 100px;
 }
 
 .first_page h2{
 	width: 55%; 
   	text-align: center; 
-   	border-bottom: 1px solid white; 
+   	border-bottom: 1px solid rgb(144,144,144); 
    	line-height: 0.1em;
    	margin: auto; 
 
 }
 
 .first_page h2 span {
+	text-transform: uppercase;
+	font-size: 14px;
 	background: rgb(34,34,34); 
     padding:0 10px;
 }
 
 /*First Page Body*/
 .first_page_body {
+	width: 55%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+/*################   SECOND SUB   ####################*/
+
+.second_page {
+	padding-top: 110px;
+}
+
+.second_page h2{
+	width: 55%; 
+  	text-align: center; 
+   	border-bottom: 1px solid rgb(144,144,144); 
+   	line-height: 0.1em;
+   	margin: auto; 
+
+}
+
+.second_page h2 span {
+	text-transform: uppercase;
+	font-size: 14px;
+	background: rgb(34,34,34); 
+    padding:0 10px;
+}
+
+/*First Page Body*/
+.second_page_body {
 	width: 55%;
 	margin: auto;
 	padding-top: 50px;
