@@ -196,3 +196,90 @@ body {
 	margin: auto;
 	padding-top: 25px; 
 }
+
+/*################## THIRD SUB ########################*/
+
+.third_page {
+	padding-top: 100px;
+}
+
+.third_page h2{
+	width: 55%; 
+  	text-align: center; 
+   	border-bottom: 1px solid rgb(144,144,144); 
+   	line-height: 0.1em;
+   	margin: auto; 
+
+}
+
+.third_page h2 span {
+	text-transform: uppercase;
+	font-size: 14px;
+	background: rgb(34,34,34); 
+    padding:0 10px;
+}
+
+/*First Page Body*/
+.third_page_body {
+	width: 55%;
+	margin: auto;
+	padding-top: 25px;
+}
+
+/*#######################   FOURTH SUB   ######################*/
+
+.fourth_page {
+	padding-top: 100px;
+}
+
+.fourth_page h2{
+	width: 55%; 
+  	text-align: center; 
+   	border-bottom: 1px solid rgb(144,144,144); 
+   	line-height: 0.1em;
+   	margin: auto; 
+
+}
+
+.fourth_page h2 span {
+	text-transform: uppercase;
+	font-size: 14px;
+	background: rgb(34,34,34); 
+    padding:0 10px;
+}
+
+/*First Page Body*/
+.fourth_page_body {
+	width: 55%;
+	margin: auto;
+	padding-top: 25px;
+}
+
+/*###############   FIFTH SUB   ################*/
+
+.fifth_page {
+	padding-top: 100px;
+}
+
+.fifth_page h2{
+	width: 55%; 
+  	text-align: center; 
+   	border-bottom: 1px solid rgb(144,144,144); 
+   	line-height: 0.1em;
+   	margin: auto; 
+
+}
+
+.fifth_page h2 span {
+	text-transform: uppercase;
+	font-size: 14px;
+	background: rgb(34,34,34); 
+    padding:0 10px;
+}
+
+/*First Page Body*/
+.fifth_page_body {
+	width: 55%;
+	margin: auto;
+	padding-top: 25px;
+}
