@@ -284,3 +284,100 @@ body {
 	margin: auto;
 	padding-top: 25px;
 }
+
+/*###########################   D3   ################################*/
+
+#container {
+	/*background-color: white;*/
+	width: 60%;
+	height: auto;
+	margin: auto;
+}
+
+#container h1 {
+  font-family: Georgia;
+  font-size: 25px;
+}
+
+.axis line{
+stroke: rgb(223,152,39);
+stroke-width: 3;
+shape-rendering: crispEdges;
+}
+
+.axis path {
+stroke: rgb(223,152,39);
+stroke-width: 3;
+shape-rendering: crispEdges;
+}
+
+.axis text {
+fill: white;
+font-family: Georgia;
+font-size: 120%;
+}
+
+path {
+fill: none;
+stroke: #ed3700;
+}
+
+path.line-0 {
+fill: none;
+stroke: white;
+stroke-dasharray: 2;
+stroke-width: 1.5;
+}
+
+path.line-1 {
+fill: none;
+stroke: #ed3700;
+stroke-width: 1.5;
+}
+
+
+.serie_label {
+fill: white;
+font-family: Georgia;
+font-size: 80%;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.grid path {
+      stroke-width: 0;
+}
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.grid path {
+      stroke-width: 0;
+}
+
+.tooltip {
+fill: #2b2929;
+font-family: Georgia;
+font-size: 150%;
+}
+
+.point {
+stroke: none;
+fill: #9c9c9c;
+}
+
+/*VIZ*/
+
+.viz {
+	font-family: Georgia;
+	/*background-color: white;*/
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+
+.viz iframe {
+	font-family: Georgia;
+}

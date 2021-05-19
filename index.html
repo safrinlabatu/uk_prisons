@@ -13,6 +13,8 @@
 	<!-- Bootstrap Carousel -->
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<!-- D3 -->
+	<script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
 	<script type="main.js"></script>
 </head>
 <body>
@@ -47,8 +49,12 @@
 		</div>
 	</div>
 
-	
-
+	<!-- ########################   D3 TRIAL   ###########################-->
+	<div id="container" class="svg-container"></div>
+	<!-- ########################    END OF TRIAL   ########################### -->
+	<div class="viz">
+		<iframe title="Inmate infections in prisons in England and Wales" aria-label="Map" id="datawrapper-chart-2dVld" src="https://datawrapper.dwcdn.net/2dVld/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="833"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();</script>
+	</div>
 <!-- First Sub -->
 	<div id="first_page" class="first_page">
 		<h2><span>crisis</span></h2>
@@ -185,10 +191,13 @@
 
 
 <!-- SKROLLR -->	
-	<script type="text/javascript" src="skrollr.js"></script>
-	<script type="text/javascript">
-		
-	</script>
+	<!-- <script type="text/javascript" src="skrollr.js"></script> -->
+<!-- #####################   D3   ####################### -->
+<script type="text/javascript" src="d3_file.js">
+
+
+</script>
+
 </body>
 </html>
 
