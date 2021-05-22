@@ -126,15 +126,15 @@ body {
 
 .carousel-control-next-icon:after
 {
-  content: '>';
+  content: '';
   font-size: 55px;
-  color: black;
+  color: white;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
+  content: '';
   font-size: 55px;
-  color: black;
+  color: white;
 }
 
 /*Audio*/
@@ -142,32 +142,6 @@ body {
 	
 }
 
-/*######   MODAL   ######*/
-
-/*.button {
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom:20px;
-}
-
-.button a {
-	text-decoration: none;
-	color: black;
-}
-
-.btn {
-	background: rgb(255,255,255);
-	font-weight: bold;
-	font-size: 12px;
-	padding: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
-}
-
-.button p {
-	text-transform: uppercase;
-	font-size: 12px;
-}	*/
 
 /*#################   FIRST SUB   ###########*/
 
@@ -206,7 +180,7 @@ body {
 }
 
 .first_page {
-	padding-top: 60px;
+	padding-top: 80px;
 }
 
 .first_page h2{
@@ -349,19 +323,68 @@ body {
 }
 
 
-/*############  MAPS   ##########*/
-
-.viz {
-	font-family: Georgia;
-	/*background-color: white;*/
-	width: 100%;
-	/*height: 50%;*/
+/*####################################################################################################*/
+/*####################################################################################################*/
+											/*VIZ*/
+/*####################################################################################################*/
+/*####################################################################################################*/
+#viz1 {
+	background-color: white;
+	width: 80%;
+	height: 40%;
 	margin: auto;
 }
 
-.viz iframe {
-	font-family: Georgia;
+#viz1 iframe {
 }
 
+#viz2 {
+	background-color: white;
+	width: 80%;
+	height: 40%;
+	margin: auto;
+}
 
+#viz2 iframe {
+}
+
+.map {
+	width: 80%;
+	height: 40%
+	height:auto;
+	margin: auto;
+}
+
+.prison_img {
+	width:80%;
+	margin: auto;
+}
+
+#viz3 {
+	background-color: white;
+	width: 80%;
+	height: 40%;
+	margin: auto;
+}
+
+#viz4 {
+	background-color: white;
+	width: 80%;
+	height: 40%;
+	margin: auto;
+}
+
+#viz5 {
+	background-color: white;
+	width: 80%;
+	height: 40%;
+	margin: auto;
+}
+
+#viz6 {
+	background-color: white;
+	width: 80%;
+	height: 40%;
+	margin: auto;
+}
 
