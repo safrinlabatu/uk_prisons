@@ -425,6 +425,16 @@ body {
 	word-wrap: break-word;
 }
 
+.bib_content p {
+	color: rgb(144,144,144);
+	font-size: 14px;
+}
+
+.bib_content a {
+	/*color: rgb(144,144,144);*/
+	/*text-decoration: underline;*/
+}
+
 /*################   Cards   #################*/
 
 .card-body {
