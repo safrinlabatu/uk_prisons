@@ -33,7 +33,7 @@ body {
 
 .bg_img {
 	content: "";
-	background-image: url("/img/bg_img.jpg");
+	background-image: url("img/bg_img.jpg");
 	background-size: cover;
    	-webkit-background-size: cover;
   	-moz-background-size: cover;
