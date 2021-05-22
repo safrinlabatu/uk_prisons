@@ -1,11 +1,12 @@
 
-const width = 960;
-const height = 500;
-const margin = 5;
-const padding = 0;
-const adj = 40;
 
-const svg = d3.select("div#container")
+const width = 1200;
+const height = 500;
+const margin = 10;
+const padding = 0;
+const adj = 180;
+
+const svg = d3.select("#viz1")
     .append("svg")
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "-"
@@ -15,7 +16,9 @@ const svg = d3.select("div#container")
           + (height + adj*3))
     .style("padding", padding)
     .style("margin", margin)
-    .classed("svg-content", true);
+    .classed("svg-content", true)
+    .attr("height", 800)
+    .attr("width", 900);
 
 const timeConv = d3.timeParse("%d/%m/%Y");
 const dataset = d3.csv("https://raw.githubusercontent.com/MollySomers/Digital-Investigtion/main/communityprisonscovid.csv");
@@ -58,7 +61,7 @@ yScale.domain([(0), d3.max(slices, function(c) {
 const yaxis = d3.axisLeft().scale(yScale);
 
 const xaxis = d3.axisBottom().scale(xScale)
-      .tickFormat(d3.timeFormat("%b/%y"));
+      .tickFormat(d3.timeFormat("%m/%y"));
 
 const line = d3.line()
     .x(function(d) { return xScale(d.date); })
@@ -81,13 +84,39 @@ svg.append("g")
 
     svg.append("g")
         .attr("class", "axis")
-        .call(yaxis)
-        .append("text")
-        .attr("transform", "rotate(-90)")
-        .attr("dy", ".75em")
-        .attr("y", 6)
-        .style("text-anchor", "end")
+        .call(yaxis);
+
+     svg.append('text')
+        .attr('class', 'label')
+        .attr('x', -(height / 2) - margin)
+        .attr('y', -60)
+        .attr('transform', 'rotate(-90)')
+        .attr('text-anchor', 'middle')
         .text("Rate per 100,000 population");
+
+    svg.append('text')
+        .attr('class', 'label');
+
+      svg.append('text')
+        .attr('class', 'title')
+        .attr('x', width / 2 + margin)
+        .attr('y', -50)
+        .attr('text-anchor', 'middle')
+        // .text("Covid-19 case rates within prisons and the community")
+
+        svg.append('text')
+          .attr('class', 'title-subtitle')
+          .attr('x', width / 2 + margin)
+          .attr('y', -25)
+          .attr('text-anchor', 'middle')
+          // .text("In England and Wales between January 2020 - April 2021")
+
+      svg.append('text')
+        .attr('class', 'source')
+        .attr('x', width - margin / 0.05)
+        .attr('y', height + margin * 10)
+        .attr('text-anchor', 'start')
+        .text('Source: MoJ/HMPPS & ONS')
 
 const lines = svg.selectAll("lines")
     .data(slices)
@@ -153,9 +182,9 @@ lines.selectAll("circles")
             .transition()
             .delay("20")
             .duration("200")
-            .attr("r", 12)
+            .attr("r", 6)
             .style("opacity", 1)
-            .style("fill","rgb(223,152,39)");
+            .style("fill","#ed3700");
         })
 
     .on("mouseout", function(d) {
@@ -173,3 +202,4 @@ lines.selectAll("circles")
             .style("opacity", 0);
         });
 });
+

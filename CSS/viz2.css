@@ -1,0 +1,110 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+    --Playfair: 'Playfair Display', serif;
+}*/
+
+/*body {
+  font-family: var(--Playfair);
+}*/
+
+/*#layout {
+  text-align: center;
+}*/
+
+
+
+#viz2 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: white;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+text.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+text.title-subtitle {
+  font-size: 15px;
+}
+
+text.label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.axis line{
+stroke: #706f6f;
+stroke-width: 0.5;
+shape-rendering: crispEdges;
+}
+
+.axis path {
+stroke: #706f6f;
+stroke-width: 0.7;
+shape-rendering: crispEdges;
+}
+
+.axis text {
+fill: #2b2929;
+font-family: var(--Playfair);
+font-size: 120%;
+}
+
+path {
+fill: none;
+stroke: #ed3700;
+}
+
+path.line-0 {
+fill: none;
+stroke: #50c4eb;
+stroke-dasharray: 4;
+stroke-width: 3;
+}
+
+path.line-1 {
+fill: none;
+stroke: #fed8b1;
+;
+stroke-width: 3;
+}
+
+
+.serie_label {
+fill: #2b2929;
+font-family: var(--Playfair);
+font-size: 80%;
+}
+
+.tooltip {
+fill: #2b2929;
+font-family: var(--Playfair);
+font-size: 150%;
+}
+
+.point {
+stroke: none;
+fill: #9c9c9c;
+}
+
+.tooltip {
+fill: #2b2929;
+font-family: var(--Playfair);
+font-size: 150%;
+}
+
+.point {
+stroke: none;
+fill: #9c9c9c;
+}
+
+.serie_label {
+  font-family: var(--Playfair);
+}

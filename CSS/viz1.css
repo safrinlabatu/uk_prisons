@@ -1,0 +1,76 @@
+/*###########################   VIZ_1   ################################*/
+
+#viz1 {
+	background-color: white;
+	width: 60%;
+	margin: auto;
+}
+
+.axis line{
+stroke: #706f6f;
+stroke-width: 3;
+shape-rendering: crispEdges;
+}
+
+.axis path {
+stroke: #706f6f;
+stroke-width: 3;
+shape-rendering: crispEdges;
+}
+
+.axis text {
+fill: #2b2929;
+font-family: Georgia;
+font-size: 120%;
+}
+
+path {
+fill: none;
+stroke: #ed3700;
+}
+
+path.line-0 {
+fill: none;
+stroke: #2b2929;
+stroke-dasharray: 2;
+stroke-width: 1.5;
+}
+
+path.line-1 {
+fill: none;
+stroke: #ed3700;
+stroke-width: 1.5;
+}
+
+
+.serie_label {
+fill: #2b2929;
+font-family: Georgia;
+font-size: 80%;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.grid path {
+      stroke-width: 0;
+}
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.grid path {
+      stroke-width: 0;
+}
+
+.tooltip {
+fill: #2b2929;
+font-family: Georgia;
+font-size: 150%;
+}
+
+.point {
+stroke: none;
+fill: #9c9c9c;
+}
