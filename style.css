@@ -440,6 +440,7 @@ body {
 .card-body p {
 	/*background-color: rgb(144,144,144);*/
 	font-size: 15px;
+	padding-bottom: 20px;
 }
 
 .card-body div {
