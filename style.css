@@ -437,8 +437,14 @@ body {
 
 /*################   Cards   #################*/
 
-.card-body {
+.card-body p {
 	/*background-color: rgb(144,144,144);*/
+	font-size: 15px;
+}
+
+.card-body div {
+	position: absolute;
+	bottom:0px;
 }
 
 .footer {
