@@ -496,33 +496,33 @@ svg {
   font-size: 12px;
 }
 
-text.title1 {
+text.title {
   font-size: 19px;
   font-weight: 600;
 }
 
-text.title-subtitle1 {
+text.title-subtitle {
   font-size: 15px;
 }
 
-text.label1 {
+text.label {
   font-size: 12px;
   font-weight: 400;
 }
 
-.axis1 line{
+.axis line{
 stroke: #706f6f;
 stroke-width: 0.5;
 shape-rendering: crispEdges;
 }
 
-.axis1 path {
+.axis path {
 stroke: #706f6f;
 stroke-width: 0.7;
 shape-rendering: crispEdges;
 }
 
-.axis1 text {
+.axis text {
 fill: #2b2929;
 font-family: 'Roboto', sans-serif;
 font-size: 100%;
@@ -533,14 +533,14 @@ fill: none;
 stroke: #ed3700;
 }
 
-path.line-01 {
+path.line-0 {
 fill: none;
 stroke: #13f2a4;
 stroke-dasharray: 3;
 stroke-width: 3;
 }
 
-path.line-11 {
+path.line-1 {
 fill: none;
 stroke: #dba5e8;
 stroke-width: 3;
@@ -551,11 +551,11 @@ path {
   stroke: gray;
 }
 
-.grid1 path {
+.grid path {
   stroke-width: 0;
 }
 
-.grid11 .tick1 line {
+.grid .tick line {
   stroke: #9FAAAE;
   stroke-opacity: 0.3;
 }
