@@ -479,7 +479,7 @@ hr {
 
 
 /*######################################################################################*/
-/*				                        D3                                               */
+/*				                        VIZ1                                               */
 /*######################################################################################*/
 
 
@@ -559,3 +559,113 @@ path {
   stroke: #9FAAAE;
   stroke-opacity: 0.3;
 }
+
+/*######################################################################################*/
+/*				                        VIZ2                                               */
+/*######################################################################################*/
+
+#viz2 {
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  background-color: #white;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+}
+
+text.title {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+text.title-subtitle {
+  font-size: 15px;
+}
+
+text.label {
+  font-size: 12px;
+ 
+}
+
+.axis line{
+stroke: #706f6f;
+stroke-width: 0.5;
+shape-rendering: crispEdges;
+}
+
+.axis path {
+stroke: #706f6f;
+stroke-width: 0.7;
+shape-rendering: crispEdges;
+}
+
+.axis text {
+fill: #2b2929;
+font-family: 'Roboto', sans-serif;
+font-size: 120%;
+}
+
+path {
+fill: none;
+stroke: #ed3700;
+}
+
+path.line-0 {
+fill: none;
+stroke: #50c4eb;
+stroke-dasharray: 4;
+stroke-width: 3;
+}
+
+path.line-1 {
+fill: none;
+stroke: #fed8b1;
+;
+stroke-width: 3;
+}
+
+
+.tooltip {
+fill: #2b2929;
+font-family: 'Roboto', sans-serif;
+font-size: 150%;
+}
+
+.point {
+stroke: none;
+fill: #9c9c9c;
+}
+
+.tooltip {
+fill: #2b2929;
+font-family: 'Roboto', sans-serif;
+font-size: 150%;
+}
+
+.point {
+stroke: none;
+fill: #9c9c9c;
+}
+
+
+path {
+  stroke: gray;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.grid .tick line {
+  stroke: #9FAAAE;
+  stroke-opacity: 0.3;
+}
+
+/*######################################################################################*/
+/*				                        VIZ3                                               */
+/*######################################################################################*/
+
