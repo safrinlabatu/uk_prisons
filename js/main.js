@@ -128,14 +128,14 @@ for (const audio of audios) {
 	        .attr('class', 'label');
 
 	      svg.append('text')
-	        .attr('class', 'title')
+	        .attr('class', 'title1')
 	        .attr('x', 450)
 	        .attr('y', -75)
 	        .attr('text-anchor', 'middle')
 	        .text("Covid-19 Case Rates within Prisons and the Community")
 
 	        svg.append('text')
-	          .attr('class', 'title-subtitle')
+	          .attr('class', 'title-subtitle1')
 	          .attr('x', 450)
 	          .attr('y', -50)
 	          .attr('text-anchor', 'middle')
