@@ -108,7 +108,7 @@ for (const audio of audios) {
 
 	    let id = 0;
 	    const ids = function () {
-	        return "line-"+id++;
+	        return "line1-"+id++;
 	    }
 
 	    const tooltip = d3.select("body").append("div")
@@ -128,14 +128,14 @@ for (const audio of audios) {
 	        .attr('class', 'label');
 
 	      svg.append('text')
-	        .attr('class', 'title1')
+	        .attr('class', 'title')
 	        .attr('x', 450)
 	        .attr('y', -75)
 	        .attr('text-anchor', 'middle')
 	        .text("Covid-19 Case Rates within Prisons and the Community")
 
 	        svg.append('text')
-	          .attr('class', 'title-subtitle1')
+	          .attr('class', 'title-subtitle')
 	          .attr('x', 450)
 	          .attr('y', -50)
 	          .attr('text-anchor', 'middle')
@@ -149,7 +149,7 @@ for (const audio of audios) {
 	          .text("⟵ The peak of the first wave")
 	  
 	     svg.append('text')
-	          .attr('class', 'label2')
+	          .attr('class', 'label')
 	          .attr('x', 620)
 	          .attr('y', 65)
 	          .attr('text-anchor', 'middle')

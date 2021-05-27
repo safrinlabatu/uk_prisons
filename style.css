@@ -487,7 +487,7 @@ hr {
   width: 1000px;
   height: 600px;
   margin: auto;
-  background-color: #white;
+  background-color: white;
 }
 
 svg {
@@ -533,14 +533,14 @@ fill: none;
 stroke: #ed3700;
 }
 
-path.line-0 {
+path.line1-0 {
 fill: none;
 stroke: #13f2a4;
 stroke-dasharray: 3;
 stroke-width: 3;
 }
 
-path.line-1 {
+path.line1-1 {
 fill: none;
 stroke: #dba5e8;
 stroke-width: 3;
@@ -568,7 +568,7 @@ path {
   width: 1000px;
   height: 600px;
   margin: auto;
-  background-color: #white;
+  background-color: white;
 }
 
 svg {
