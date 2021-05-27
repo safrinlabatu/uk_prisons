@@ -132,14 +132,14 @@ for (const audio of audios) {
 	        .attr('x', 450)
 	        .attr('y', -75)
 	        .attr('text-anchor', 'middle')
-	        .text("Covid-19 Case Rates within Prisons and the Community")
+	        .text("Covid-19 case rates within prisons and the community")
 
 	        svg.append('text')
 	          .attr('class', 'title-subtitle')
 	          .attr('x', 450)
 	          .attr('y', -50)
 	          .attr('text-anchor', 'middle')
-	          .text("In England and Wales between January 2020 - April 2021")
+	          .text("in England and Wales between January 2020 - April 2021")
 
 	      svg.append('text')
 	          .attr('class', 'label')
@@ -385,7 +385,7 @@ for (const audio of audios) {
 	          .attr('x', 450)
 	          .attr('y', -40)
 	          .attr('text-anchor', 'middle')
-	          .text("In England and Wales between January 2020 - April 2021")
+	          .text("in England and Wales between January 2020 - April 2021")
 	  
 	          svg.append('text')
 	          .attr('class', 'label')
